@@ -40,4 +40,14 @@ class IssueReproTest {
         }
         paparazzi.snapshot(view)
     }
+
+    @Test
+    fun heartUrl2() {
+        val view = LottieAnimationView(paparazzi.context).apply {
+            setAnimationFromUrl(
+                "https://raw.githubusercontent.com/drewhamilton/lottie-android/48e6678489e399ed0f8d4b41ac63556c12c1ba3c/issue-repro/src/main/res/raw/heart.json"
+            )
+        }
+        paparazzi.snapshot(view)
+    }
 }
