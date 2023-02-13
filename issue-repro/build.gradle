@@ -26,4 +26,5 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$appcompatVersion"
 
     testImplementation "junit:junit:$junitVersion"
+    testImplementation "androidx.savedstate:savedstate-ktx:1.2.0"
 }

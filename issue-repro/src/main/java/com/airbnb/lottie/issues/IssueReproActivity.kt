@@ -9,6 +9,6 @@ class IssueReproActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = IssueReproActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        // Reproduce any issues here.
+        // NOTE: Issue is reproduced in IssueReproTest
     }
 }
