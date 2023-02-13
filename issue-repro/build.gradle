@@ -1,12 +1,11 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'kotlin-android'
 }
 
 android {
     compileSdk 31
     defaultConfig {
-        applicationId "com.airbnb.lottie.issues"
         minSdk 16
         targetSdk 30
         versionCode 1
