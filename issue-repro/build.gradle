@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
+    id 'app.cash.paparazzi'
 }
 
 android {
@@ -23,4 +24,6 @@ android {
 dependencies {
     implementation project(':lottie')
     implementation "androidx.appcompat:appcompat:$appcompatVersion"
+
+    testImplementation "junit:junit:$junitVersion"
 }
